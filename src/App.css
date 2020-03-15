@@ -1,0 +1,151 @@
+.BOX{
+    margin:auto;
+    margin-top:9em;
+    padding:1em;
+    height: auto;
+    width: 43em;
+    background-color: white;
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.22);
+}
+
+.header{
+    text-align: center;
+}
+
+.pic{
+    height: 2.2em;
+    width:10em;
+}
+
+.body{
+    margin-top: 5em;
+    margin-left: 2.5em;
+}
+
+input[type=text],input[type=password]{
+    border:none;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #f2f2f2;
+    width: 18em;
+    padding-top: 1.7em;
+    padding-bottom: 0.5em;
+    padding-left:1em;
+}
+
+label{
+    position: absolute;
+    font-size:0.8em;
+    z-index: 2;
+    margin-top:0.3em;
+    margin-left:-18.8em;
+    opacity:0.5
+}
+
+.input1label,.input2label{
+    opacity: 0.5;
+}
+
+.input2{
+    margin-left:7em;
+}
+
+.container {
+    display: block;
+    padding-left: 2.5em;
+    margin-top: -2.1em!important;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+    height: 1em;
+    width: 1em;
+    border-radius:0.3em;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #4a00ab;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 0.35em;
+    top: 0.16em;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .ct1{
+      margin-left:21.5em;
+      opacity:1!important;
+      margin-top:-1.8em;
+  }
+
+  .footer{
+    margin-left:25em;
+    margin-top:4em;
+    padding-bottom:1.5em;
+  }
+
+  button{
+    width:7.5em;
+    height:3em;
+    border-radius:0.5em;
+    border: 1px solid #4a00ab;
+    margin-left:1.5em;
+    background-color: white;
+    color:#4a00ab;
+  }
+
+  .add{
+    color:white!important;
+    background-color: #4a00ab!important;
+  }
+
+  .App{
+    width:80%;
+    position:absolute;
+    margin-left:9%;
+    height: 46.9em;
+    background-color:#f2f2f2;
+  }
