@@ -1,10 +1,12 @@
 import React from 'react';
 import heading from './pic/heading.png';
+import arrow from './pic/arrow.png';
 import './App.css';
 
 function App() {
   return (
-    <div class="App">
+    <div>
+      <div class="App"></div>
         <div class="BOX">
           <div class="header">
              <img src={heading} class="pic"/>
@@ -13,6 +15,7 @@ function App() {
           <div class="body">
               <input type="text" class="input1"/>
               <label class="input1Label">Role</label>
+              <img src={arrow} class="arrow"/>
               <input type="text" class="input2"/>
               <label class="input2Label">Name</label>
               <br/><br/><br/>

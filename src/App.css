@@ -145,7 +145,15 @@ label{
   .App{
     width:80%;
     position:absolute;
-    margin-left:9%;
-    height: 46.9em;
+    margin-top:-10em;
+    margin-left:10%;
+    height: 47.9em;
     background-color:#f2f2f2;
+    z-index:-2;
+  }
+
+  .arrow{
+    position: absolute;
+    margin-top:1.2em;
+    margin-left:-1.7em;
   }
